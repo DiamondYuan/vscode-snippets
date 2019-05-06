@@ -13,6 +13,7 @@
     "Snippets"
   ],
   "scripts": {
+    "test": "echo success",
     "travis-publish": "vsce publish -p $VS_TOKEN"
   },
   "contributes": {

@@ -4,6 +4,10 @@ node_js:
   - "10"
 install:
   - npm install
+
+script:
+  - npm run test
+
 deploy:
   provider: script
   script: npm run travis-publish
