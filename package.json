@@ -24,11 +24,11 @@
       },
       {
         "language": "scss",
-        "path": "./scss/snippets.json"
+        "path": "./scss/scss.code-snippets"
       },
       {
         "language": "markdown",
-        "path": "./markdown/markdown.json"
+        "path": "./markdown/markdown.code-snippets"
       }
     ]
   },
