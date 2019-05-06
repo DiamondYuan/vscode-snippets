@@ -1,0 +1,29 @@
+{
+  "name": "diamondyuan-vscode-snippets",
+  "displayName": "DiamondYuan VS code Snippet",
+  "version": "0.0.1",
+  "publisher": "DiamondYuan",
+  "repository": "git@github.com:DiamondYuan/vscode-snippets.git",
+  "author": "DiamondYuan <admin@diamondyuan.com>",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.33.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "scripts": {
+    "travis-publish": "vsce publish -p $VS_TOKEN"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./javascript/snippets.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vsce": "^1.61.0"
+  }
+}

@@ -1,0 +1,12 @@
+sudo: false
+language: node_js
+node_js:
+  - "10"
+install:
+  - npm install
+deploy:
+  provider: script
+  script: npm run travis-publish
+  skip_cleanup: true
+  on:
+    tags: true
