@@ -1,0 +1,13 @@
+{
+  "Print to console": {
+    "scope": "javascript,typescript",
+    "prefix": "sout",
+    "body": ["console.log('$1');"],
+    "description": "Log output to console"
+  },
+  "saga helper take every": {
+    "scope": "typescript",
+    "prefix": ".takeEvery",
+    "body": ["  .takeEvery($1, function*(action) {})"]
+  }
+}

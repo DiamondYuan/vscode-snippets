@@ -1,0 +1,6 @@
+{
+  "Figure image": {
+    "prefix": "fig",
+    "body": ["{% figure $1 []() %}"]
+  }
+}

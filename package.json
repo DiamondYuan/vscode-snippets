@@ -20,7 +20,15 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./javascript/snippets.json"
+        "path": "./javascript/snippets.code-snippets"
+      },
+      {
+        "language": "scss",
+        "path": "./scss/snippets.json"
+      },
+      {
+        "language": "markdown",
+        "path": "./markdown/markdown.json"
       }
     ]
   },
