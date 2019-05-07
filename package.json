@@ -49,11 +49,11 @@
       },
       {
         "language": "javascript",
-        "path": "./snippets/javascript/test.json"
+        "path": "./snippets/javascript/snippets.json"
       },
       {
         "language": "javascript",
-        "path": "./snippets/javascript/snippets.json"
+        "path": "./snippets/javascript/test.json"
       },
       {
         "language": "javascriptreact",
@@ -61,11 +61,11 @@
       },
       {
         "language": "javascriptreact",
-        "path": "./snippets/javascript/test.json"
+        "path": "./snippets/javascript/snippets.json"
       },
       {
         "language": "javascriptreact",
-        "path": "./snippets/javascript/snippets.json"
+        "path": "./snippets/javascript/test.json"
       },
       {
         "language": "typescript",
@@ -73,11 +73,11 @@
       },
       {
         "language": "typescript",
-        "path": "./snippets/javascript/test.json"
+        "path": "./snippets/javascript/snippets.json"
       },
       {
         "language": "typescript",
-        "path": "./snippets/javascript/snippets.json"
+        "path": "./snippets/javascript/test.json"
       },
       {
         "language": "typescript",
@@ -89,11 +89,11 @@
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/javascript/test.json"
+        "path": "./snippets/javascript/snippets.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/javascript/snippets.json"
+        "path": "./snippets/javascript/test.json"
       },
       {
         "language": "typescriptreact",
