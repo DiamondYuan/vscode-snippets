@@ -1,6 +1,5 @@
-const path = require("path");
 const globby = require("globby");
-const fs = require("fs");
+import * as path from "path";
 
 const languageConfig = {
   markdown: ["markdown"],
@@ -13,21 +12,22 @@ const languageConfig = {
 
 const cache = {};
 
-function flatten(arr) {
-  var result = [];
-  for (var i = 0, len = arr.length; i < len; i++) {
-    if (Array.isArray(arr[i])) {
-      result = result.concat(flatten(arr[i]));
+function flatten<T>(arr: (T[] | T)[]) {
+  let result: T[] = [];
+  for (let i = 0, len = arr.length; i < len; i++) {
+    const data = arr[i];
+    if (Array.isArray(data)) {
+      result = result.concat(flatten(data));
     } else {
-      result.push(arr[i]);
+      result.push(data);
     }
   }
   return result;
 }
 
-async function getContributes() {
+export async function getContributes() {
   const snippets = await globby(["**/**.json"], {
-    cwd: path.join(__dirname, "./snippets/"),
+    cwd: path.join(__dirname, "../snippets/"),
     deep: true
   });
   for (const snippet of snippets) {
@@ -55,11 +55,3 @@ async function getContributes() {
     snippets: result
   };
 }
-
-(async () => {
-  const packageJsonPath = path.join(__dirname, "./package.json");
-  const packageJson = JSON.parse(fs.readFileSync(packageJsonPath));
-  const contributes = await getContributes();
-  packageJson.contributes = contributes;
-  fs.writeFileSync(packageJsonPath, JSON.stringify(packageJson, null, 2));
-})();
