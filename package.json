@@ -48,11 +48,19 @@
       },
       {
         "language": "javascript",
+        "path": "./snippets/javascript/test.json"
+      },
+      {
+        "language": "javascript",
         "path": "./snippets/javascript/snippets.json"
       },
       {
         "language": "javascriptreact",
         "path": "./snippets/javascript/import_and_export.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/javascript/test.json"
       },
       {
         "language": "javascriptreact",
@@ -61,6 +69,10 @@
       {
         "language": "typescript",
         "path": "./snippets/javascript/import_and_export.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/javascript/test.json"
       },
       {
         "language": "typescript",
@@ -73,6 +85,10 @@
       {
         "language": "typescriptreact",
         "path": "./snippets/javascript/import_and_export.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/javascript/test.json"
       },
       {
         "language": "typescriptreact",
