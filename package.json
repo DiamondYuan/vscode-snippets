@@ -19,16 +19,36 @@
   "contributes": {
     "snippets": [
       {
+        "language": "markdown",
+        "path": "./snippets/markdown/snippets.json"
+      },
+      {
         "language": "javascript",
-        "path": "./javascript/snippets.code-snippets"
+        "path": "./snippets/javascript/snippets.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/javascript/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/javascript/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/typescript/snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/javascript/snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/typescript/snippets.json"
       },
       {
         "language": "scss",
-        "path": "./scss/scss.code-snippets"
-      },
-      {
-        "language": "markdown",
-        "path": "./markdown/markdown.code-snippets"
+        "path": "./snippets/scss/snippets.json"
       }
     ]
   },

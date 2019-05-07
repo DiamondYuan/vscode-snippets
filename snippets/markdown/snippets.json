@@ -1,6 +1,5 @@
 {
   "Figure image": {
-    "scope": "markdown",
     "prefix": "fig",
     "body": ["{% figure $1 []() %}"]
   }
