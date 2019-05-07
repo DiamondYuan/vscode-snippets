@@ -44,11 +44,23 @@
       },
       {
         "language": "javascript",
+        "path": "./snippets/javascript/import_and_export.json"
+      },
+      {
+        "language": "javascript",
         "path": "./snippets/javascript/snippets.json"
       },
       {
         "language": "javascriptreact",
+        "path": "./snippets/javascript/import_and_export.json"
+      },
+      {
+        "language": "javascriptreact",
         "path": "./snippets/javascript/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/javascript/import_and_export.json"
       },
       {
         "language": "typescript",
@@ -57,6 +69,10 @@
       {
         "language": "typescript",
         "path": "./snippets/typescript/snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/javascript/import_and_export.json"
       },
       {
         "language": "typescriptreact",

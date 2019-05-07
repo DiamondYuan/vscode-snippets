@@ -3,5 +3,25 @@
     "prefix": "sout",
     "body": ["console.log('$1');"],
     "description": "Log output to console"
+  },
+  "setTimeOut": {
+    "prefix": "sto",
+    "body": ["setTimeout(() => {", "  ${2}", "}, ${1:delayInms})", ""],
+    "description": "Executes the given function after the specified delay in ES7 syntax"
+  },
+  "promise": {
+    "prefix": "prom",
+    "body": ["return new Promise((resolve, reject) => {", "  ${1}", "})", ""],
+    "description": "Creates and returns a new Promise in the standard ES7 syntax"
+  },
+  "constructor": {
+    "prefix": "con",
+    "body": "constructor(${1:params}) {\n\t${0}\n}",
+    "description": "Add default constructor in a class in ES6 syntax"
+  },
+  "method": {
+    "prefix": "met",
+    "body": "${1:methodName}(${2:params}) {\n\t${0}\n}",
+    "description": "Creates a method inside a class in ES6 syntax"
   }
 }
