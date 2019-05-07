@@ -9,6 +9,6 @@ import * as path from "path";
     fs.readFileSync(packageJsonPath, { encoding: "utf-8" })
   );
   const contributes = await getContributes();
-	assert.deepEqual(packageJson.contributes, contributes);
-	console.log('test pass')
+  assert.deepEqual(packageJson.contributes, contributes);
+  console.log("test pass");
 })();
