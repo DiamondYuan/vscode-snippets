@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "@diamondyuan/eslint-config-typescript": "^6.0.0",
+    "@types/globby": "^9.1.0",
     "@types/mocha": "^5.2.6",
     "@types/power-assert": "^1.5.0",
     "@typescript-eslint/eslint-plugin": "^1.7.0",

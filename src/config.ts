@@ -1,4 +1,4 @@
-const globby = require("globby");
+import globby from "globby";
 import * as path from "path";
 
 const languageConfig = {
