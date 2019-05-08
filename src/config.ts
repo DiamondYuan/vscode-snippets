@@ -26,10 +26,11 @@ function flatten<T>(arr: (T[] | T)[]) {
 }
 
 export async function getContributes() {
-  const snippets = await globby(["**/**.json"], {
+  let snippets: string[] = await globby(["**/**.json"], {
     cwd: path.join(__dirname, "../snippets/"),
     deep: true
   });
+  snippets = snippets.sort();
   for (const snippet of snippets) {
     const [language] = snippet.split("/");
     const relativePath = `./snippets/${snippet}`;
