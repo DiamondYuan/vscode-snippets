@@ -1,13 +1,13 @@
 {
-  "Print to console": {
-    "prefix": "sout",
-    "body": ["console.log('$1');"],
-    "description": "Log output to console"
-  },
   "Print to console without quotes": {
     "prefix": "sout",
     "body": ["console.log($1);"],
     "description": "Log output to console without quotes"
+  },
+  "Print to console with quotes": {
+    "prefix": "sout",
+    "body": ["console.log('$1');"],
+    "description": "Log output to console with quotes"
   },
   "setTimeOut": {
     "prefix": "sto",
