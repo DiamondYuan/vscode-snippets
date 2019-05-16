@@ -1,7 +1,7 @@
 {
   "name": "diamondyuan-vscode-snippets",
   "displayName": "DiamondYuan VS code Snippet",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "publisher": "DiamondYuan",
   "repository": "git@github.com:DiamondYuan/vscode-snippets.git",
   "author": "DiamondYuan <admin@diamondyuan.com>",
