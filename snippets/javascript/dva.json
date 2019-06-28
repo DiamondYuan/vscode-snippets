@@ -1,0 +1,12 @@
+{
+  "yield put": {
+    "prefix": "yp",
+    "body": ["yield put($1);"],
+    "description": "yield put"
+  },
+  "yield call": {
+    "prefix": "yc",
+    "body": ["yield call($1);"],
+    "description": "yield call"
+  }
+}

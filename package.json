@@ -52,6 +52,10 @@
       },
       {
         "language": "javascript",
+        "path": "./snippets/javascript/dva.json"
+      },
+      {
+        "language": "javascript",
         "path": "./snippets/javascript/import_and_export.json"
       },
       {
@@ -64,6 +68,10 @@
       },
       {
         "language": "javascriptreact",
+        "path": "./snippets/javascript/dva.json"
+      },
+      {
+        "language": "javascriptreact",
         "path": "./snippets/javascript/import_and_export.json"
       },
       {
@@ -73,6 +81,10 @@
       {
         "language": "javascriptreact",
         "path": "./snippets/javascript/test.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/javascript/dva.json"
       },
       {
         "language": "typescript",
@@ -89,6 +101,10 @@
       {
         "language": "typescript",
         "path": "./snippets/typescript/snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/javascript/dva.json"
       },
       {
         "language": "typescriptreact",
