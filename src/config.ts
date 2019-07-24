@@ -1,13 +1,13 @@
-import globby from "globby";
-import * as path from "path";
+import globby from 'globby';
+import * as path from 'path';
 
 const languageConfig = {
-  markdown: ["markdown"],
-  javascript: ["javascript"],
-  javascriptreact: ["javascript", "react"],
-  typescript: ["javascript", "typescript"],
-  typescriptreact: ["javascript", "react", "typescript"],
-  scss: ["scss"]
+  markdown: ['markdown'],
+  javascript: ['javascript'],
+  javascriptreact: ['javascript', 'react'],
+  typescript: ['javascript', 'typescript'],
+  typescriptreact: ['javascript', 'react', 'typescript'],
+  scss: ['scss'],
 };
 
 const cache = {};
@@ -26,13 +26,13 @@ function flatten<T>(arr: (T[] | T)[]) {
 }
 
 export async function getContributes() {
-  let snippets: string[] = await globby(["**/**.json"], {
-    cwd: path.join(__dirname, "../snippets/"),
-    deep: true
+  let snippets: string[] = await globby(['**/**.json'], {
+    cwd: path.join(__dirname, '../snippets/'),
+    deep: true,
   });
   snippets = snippets.sort();
   for (const snippet of snippets) {
-    const [language] = snippet.split("/");
+    const [language] = snippet.split('/');
     const relativePath = `./snippets/${snippet}`;
     if (cache[language]) {
       cache[language].push(relativePath);
@@ -48,11 +48,11 @@ export async function getContributes() {
           .filter(o => Array.isArray(o))
       ).map(p => ({
         language,
-        path: p
+        path: p,
       }));
     })
   );
   return {
-    snippets: result
+    snippets: result,
   };
 }

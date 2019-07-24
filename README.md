@@ -9,6 +9,7 @@ To keep snippets to show on the top of suggestions for easy using, use this conf
 
 ```json
 {
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.snippetSuggestions": "top"
 }
 ```

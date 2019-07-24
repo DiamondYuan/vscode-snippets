@@ -8,5 +8,6 @@
     "rootDir": "src",
     "strict": true,
     "noImplicitAny": false
-  }
+  },
+  "exclude": ["test"]
 }
