@@ -1,0 +1,14 @@
+{
+  "function components": {
+    "prefix": "tsrfc",
+    "body": [
+      "import React from 'react';",
+      "interface $1Props {",
+      "}",
+      "const $1: React.FC<$1Props> = _props => {",
+      "  return <div></div>;",
+      "};",
+      "export default $1;"
+    ]
+  }
+}

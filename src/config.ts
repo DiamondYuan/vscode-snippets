@@ -6,7 +6,7 @@ const languageConfig = {
   javascript: ['javascript'],
   javascriptreact: ['javascript', 'react'],
   typescript: ['javascript', 'typescript'],
-  typescriptreact: ['javascript', 'react', 'typescript'],
+  typescriptreact: ['javascript', 'react', 'typescript', 'typescriptreact'],
   scss: ['scss'],
 };
 

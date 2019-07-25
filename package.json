@@ -123,6 +123,10 @@
         "path": "./snippets/typescript/snippets.json"
       },
       {
+        "language": "typescriptreact",
+        "path": "./snippets/typescriptreact/react.json"
+      },
+      {
         "language": "scss",
         "path": "./snippets/scss/snippets.json"
       }
