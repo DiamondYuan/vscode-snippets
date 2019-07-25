@@ -1,17 +1,14 @@
 sudo: false
 language: node_js
 node_js:
-- '10'
+  - '10'
 install:
-- npm install
+  - npm install
 script:
-- npm run test
+  - npm run test
 deploy:
   provider: script
   script: npm run travis-publish
   skip_cleanup: true
   on:
     tags: true
-env:
-  global:
-    secure: H2y/+ZbPo8G2lWH+aDRTwxpp4ZC/fGSmZIVKupdBIw9J7CCW3M5X/yHeDtga1ZIKWYLW2rzwwYcFNnvJ3pMc2D19F3jqfQih2eUJP25Nb48Kf3hnC07zMsQvDnirzSxLSHZ1quJoKnAhouplZxxPcdCK/P+MmEstwpDmFU88lcj74ZF9Lvua8+UVF3vrl96nCPBnvlG2gTZ25rEQgDCUd6XPFRtP2njgbyJK9vNEIreQSoEOqrx/8Agy58CHivbtnFgBmhmOaNZz+95JwwyVJfuBpMetAnTmDArgZAaocVlKwq1R/UmrGOQ3WZvWrAn2NgIvHIkhVZDq+K732roEhbzqb6NDNIamPccgYYYtYbAnpEA7CD52vT5V0GhCpIgVGN5Id3WEAsJpTqI/EUs9owdH2GXC5iLoLhGiqelcfQ7m7F2QkcmpOtBiYJkRXQTogHys2xb92G+Zr2U1gjYK9e+22+3cZuBllMHWsjAU4bv9e7hyaUfasWJkra3ieXDxsGGv16KRIjmbMCyoZ8oSoXjsRbGXnrLMg7Dw1xHL2I7h8GtcBQZdNorCPCHbVZwi9TnIetas0fwC2+fgJ9B8WRIbN+nOawSmEILPGuDGzovhjTXrpfFuolzu1h1Irv2F/ZiAh0SffmEqITMLc7a8IWrYVvw1dXYW0s7keITbPwc=
